@@ -13,8 +13,9 @@ function Login() {
     "
         >
           <div className="form_container p-5 rounded ">
+            <h1 className="form-heading">Welcome Back!</h1>
             <form action="">
-              <h3 className=" Signin text-center">Sign In</h3>
+              <h3 className=" Signin text-left">Login to your account</h3>
               <div className="mb-4">
                 <label htmlFor="email" className="label-text mb-2">
                   Email
