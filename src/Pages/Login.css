@@ -1,0 +1,48 @@
+.login-page {
+  display: flex;
+}
+.login-section {
+  width: 42%;
+  background-color: #202020;
+}
+.image-section {
+  background-color: #cfd5da;
+  width: 58%;
+}
+.image-section img {
+  width: 99%;
+  object-fit: cover;
+}
+.Signin {
+  color: #cca071;
+}
+/* ---------------------------------- */
+.form_container {
+  width: 80%;
+  background-color: #202020;
+}
+.form-control {
+  background-color: #cfd5da;
+  color: #202020;
+}
+.form-control::placeholder {
+  color: #202020;
+}
+.btn {
+  border: 1px solid #cfd5da;
+  color: #cfd5da;
+}
+.btn:hover {
+  background-color: #9b9c9b;
+  color: #202020;
+}
+.label-text {
+  color: #cfd5da;
+}
+.custom-input-label {
+  color: #cfd5da;
+}
+.forgot-password {
+  color: #1b6da8;
+  font-weight: 500;
+}
