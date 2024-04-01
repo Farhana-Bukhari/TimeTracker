@@ -8,6 +8,7 @@
 .image-section {
   background-color: #cfd5da;
   width: 58%;
+  display: block;
 }
 .image-section img {
   width: 99%;
@@ -15,16 +16,18 @@
 }
 .form-heading {
   color: #cca071;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 .Signin {
   color: #cca071;
   font-size: 1.3rem;
+  margin-bottom: 2rem;
 }
 /* ---------------------------------- */
 .form_container {
   width: 80%;
   background-color: #202020;
+  padding: 1rem;
 }
 .form-control {
   background-color: #cfd5da;
@@ -48,6 +51,75 @@
   color: #cfd5da;
 }
 .forgot-password {
-  color: #1b6da8;
+  color: #cca071;
   font-weight: 500;
+}
+.rememberMe-forgotPassword {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rememberMe-holder {
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 1024px) {
+  .rememberMe-forgotPassword {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  .rememberMe-holder {
+    margin-bottom: 0;
+  }
+  /* .forgot-password-holder {
+    justify-content: flex-start;
+  } */
+}
+
+@media (max-width: 900px) {
+  .form_container {
+    width: 80%;
+
+    padding: 0;
+  }
+  .image-section {
+    width: 50%;
+  }
+  .login-section {
+    width: 50%;
+  }
+  .form-heading {
+    font-size: 1.6rem;
+  }
+  .Signin {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .rememberMe-forgotPassword {
+    margin-bottom: 0.5rem;
+  }
+}
+@media (max-width: 550px) {
+  .form_container {
+    width: 80%;
+
+    padding: 0;
+  }
+  .image-section {
+    width: 0%;
+    display: none;
+  }
+  .login-section {
+    width: 100%;
+  }
+  /* .form-heading {
+    margin-bottom: 1rem;
+  } */
+  .Signin {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .rememberMe-forgotPassword {
+    margin-bottom: 0.5rem;
+  }
 }
